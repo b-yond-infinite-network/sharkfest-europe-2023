@@ -11,12 +11,14 @@ The data used in this workshop is kept in this separate [repository](https://git
 There are two options to run this workshop:
 
 * [Option 1:](#option-1-using-google-colab) (preferred): Using [Google Colab](https://colab.google)
+  > Google Colaboratory, or "Colab" for short, is a cloud-based Jupyter notebook environment that allows for free Python code execution with free access to GPUs. To learn more about how to use Google Colaboratory, watch this [YouTube tutorial](https://www.youtube.com/watch?v=inN8seMm7UI).
   * Minimal setup required (5 mins)
   * Requires a google account
+  
 * [Option 2:](#option-2-local-mode) Local Mode
   * Requires local installation of prerequisites (tools & libraries)
   * Only supported on POSIX systems
-> If you have a Windows machine either install and setup WSL2 ahead of time and make sure your network configuration is working as expected or switch back to Option 1
+  > If you have a Windows machine either install and setup WSL2 ahead of time and make sure your network configuration is working as expected or switch back to Option 1
 
 ### Option 1: Using Google Colab
 
