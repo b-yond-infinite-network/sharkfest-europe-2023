@@ -22,7 +22,7 @@ install: .venv
 	. $(VENVPATH)/activate && \
 	pip3 install -r requirements.txt
 
-launch: install
+launch: 
 	$(VENVPATH)/jupyter lab --notebook-dir=./notebooks --FileContentsManager.root_dir=./ --ContentsManager.allow_hidden=True --ip=0.0.0.0 --no-browser --NotebookApp.token='' --NotebookApp.password=''
 
 stop:
