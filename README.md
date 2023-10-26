@@ -1,18 +1,50 @@
-# sharkfest-europe-2023
-This repo contains the notebooks, code, data, documentation for shark fest Europe 2023 workshop
+# B-YOND at Sharkfest Europe 2023
+This repository contains the notebooks, code and documentation for B-YOND workshop **"Unraveling the Packet Mysteries: A Wireshark Journey with Machine Learning!"** at Sharkfest Europe 2023.
 
-##
+The data used in this workshop is kept in this separate [repository](https://github.com/b-yond-infinite-network/sharkfest-europe-2023-data).
 
-
-## Local Mode
 ## Pre-Requisites
+- A basic understanding of programming in Python
+- Familiarity with Jupyter notebooks , if you haven't used Jupyter notebooks before please check [this tutorial](https://www.datacamp.com/tutorial/installing-jupyter-notebook) ahead of the workshop.
+
+## Workshop Material
+There are two options to run this workshop:
+
+* [Option 1:](#option-1-using-google-colab) (preferred): Using [Google Colab](https://colab.google)
+  * Minimal setup required (5 mins)
+  * Requires a google account
+* [Option 2:](#option-2-local-mode) Local Mode
+  * Requires local installation of prerequisites (tools & libraries)
+  * Only supported on POSIX systems
+> If you have a Windows machine either install and setup WSL2 ahead of time and make sure your network configuration is working as expected or switch back to Option 1
+
+### Option 1: Using Google Colab
+
+#### Step 1: Logging into Google Colab
+* Go to [Google Colab](https://colab.research.google.com/).
+* Click on the Sign in button in the upper-right corner of the page.
+* Sign in with your Google account credentials. If you don’t have a Google account, you will need to create one.
+
+#### Step 2: Opening the first Notebook in Colab
+* Click on `File` in the top menu.
+* Select `Open Notebook`.
+* In the pop-up window, go to the `GitHub` tab.
+* Paste the following notebook URL  into the provided field and press `Enter` or click `Search`.
+  * https://github.com/b-yond-infinite-network/sharkfest-europe-2023/blob/main/notebooks/network-traces-clustering.ipynb
+* Now, you can interact with and run the notebook in Google Colab.
+
+#### Step 3: Opening the second Notebook in Colab
+* Repeat [Step 2](#step-2-opening-the-first-notebook-in-colab) for the second notebook URL 
+  * https://github.com/b-yond-infinite-network/sharkfest-europe-2023/blob/main/notebooks/packet-anomaly-detection.ipynb
+
+
+### Option 2: Local Mode
+#### Pre-Requisites
 - POSIX compliant OS (Linux, MacOS, WSL2)
 - Python 3.9 or above
 - Make
-- Optionally Wireshark 4.0.7 and its binaries `tshark`, `editcap`
-- Familiarity with Jupyter Notebooks 
 
-## Installation
+#### Installation
 
 > If you do not have `make` installed you can check the [Makefile](./Makefile) being used and replicate the commands locally.
 
