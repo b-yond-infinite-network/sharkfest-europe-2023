@@ -19,6 +19,8 @@ There are two options to run this workshop:
   * Requires local installation of prerequisites (tools & libraries)
   * Only supported on POSIX systems
   > If you have a Windows machine either install and setup WSL2 ahead of time and make sure your network configuration is working as expected or switch back to Option 1
+  
+* Slide Deck is available for download on [this link](https://byond365-my.sharepoint.com/:p:/g/personal/n_weill_byd_b-yond_com/EeOftwEH90hAsxWtIp75cO4BH5j-FeEZwET5DvUshLEgHg?e=nJWuGV)
 
 ### Option 1: Using Google Colab
 
